@@ -1,0 +1,168 @@
+.wrapper {
+  height: 100vh;
+  padding: 20px;
+  width: 100%;
+}
+
+.form_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form_light {
+  background-color: white;
+  width: 500px;
+
+  border-radius: 8px;
+
+  box-shadow: 1px 8px 31px -1px rgba(66, 68, 90, 1);
+}
+.form_dark {
+  background-color: black;
+  width: 500px;
+
+  border-radius: 8px;
+
+  box-shadow: 0px 3px 34px 1px rgba(255, 255, 255, 1);
+}
+
+.form_container {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  overflow: hidden;
+}
+
+.title_light {
+  color: #0b867f;
+  font-weight: 500;
+  text-align: center;
+  font-size: 35px;
+}
+
+.title_dark {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  font-size: 35px;
+}
+
+.input {
+  padding: 15px 30px;
+  outline: none;
+  border: 1px solid #d8d8d8;
+  width: 100%;
+}
+
+.button {
+  background-color: #0b847a;
+  padding: 15px 40px;
+  color: #eef9fa;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  width: 100%;
+}
+
+.suggest_light {
+  font-size: 20px;
+  text-align: center;
+}
+.suggest_dark {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.link {
+  font-size: 20px;
+  color: #3d9094;
+  text-decoration: none;
+}
+
+.eye_password {
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+}
+
+.email_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.password_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.input_password {
+  padding: 15px 30px;
+  outline: none;
+  border: 1px solid #d8d8d8;
+  width: 100%;
+}
+
+.error {
+  color: red;
+}
+
+.password_block1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 420px) {
+  .form_container {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow: hidden;
+  }
+  .form_light {
+    background-color: white;
+    max-width: 330px;
+
+    border-radius: 8px;
+
+    box-shadow: 1px 8px 31px -1px rgba(66, 68, 90, 1);
+  }
+  .form_dark {
+    background-color: black;
+    max-width: 330px;
+    height: 450px;
+    border-radius: 8px;
+
+    box-shadow: 0px 3px 34px 1px rgba(255, 255, 255, 1);
+  }
+
+  .suggest_light {
+    font-size: 18px;
+    text-align: center;
+  }
+  .suggest_dark {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+}

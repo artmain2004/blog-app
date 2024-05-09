@@ -1,0 +1,24 @@
+.App-dark {
+  background-color: #09090f;
+  width: 100%;
+}
+
+.App-light {
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+}

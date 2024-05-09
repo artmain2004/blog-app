@@ -1,0 +1,167 @@
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_block1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 50px;
+}
+
+.dark_title {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+.light_title {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.span_title {
+  font-weight: 700;
+}
+
+.header_block2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.search_block {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  background-color: rgb(246, 246, 235);
+}
+
+.search {
+  position: absolute;
+  right: 5px;
+
+  cursor: pointer;
+}
+
+.light_mode {
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+.dark_mode {
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.sign_in_up {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo_link {
+  text-decoration: none;
+  color: black;
+}
+
+.header_link_dark {
+  text-decoration: none;
+  color: white;
+  border: 1px solid gainsboro;
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.header_link_light {
+  text-decoration: none;
+  color: black;
+  border: 1px solid gainsboro;
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.header_burger_wrapper {
+  display: none;
+}
+
+@media (max-width: 420px) {
+  .header_block2 {
+    display: none;
+  }
+
+  .header_burger_wrapper {
+    display: block;
+  }
+
+  .navbar_wrapper_dark {
+    width: 100%;
+    padding: 100px;
+
+    background-color: white;
+  }
+
+  .navbar_wrapper_light {
+    width: 100%;
+    padding: 100px;
+
+    background-color: rgb(47, 31, 54);
+  }
+
+  .nav_dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .nav_light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .nav_link_light {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  .nav_link_dark {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  .header_burger_light {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .header_burger_dark {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
+}
+.nav_icon_light {
+  font-size: 30px;
+  color: white;
+}
+.nav_icon_dark {
+  font-size: 30px;
+  color: black;
+}
